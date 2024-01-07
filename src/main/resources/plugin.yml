@@ -1,0 +1,13 @@
+name: TMCZ-Lobby
+version: '${project.version}'
+main: de.themarcraft.lobby.Main
+api-version: '1.20'
+depend: [ TMCZ-Essentials ]
+commands:
+  lobby:
+    aliases: [ lb, hub, spawn ]
+  hide:
+    aliases: [ hd, hide, removeplayers ]
+permissions:
+  themarcraft.lobby.builder:
+    description: "To use the UI"
